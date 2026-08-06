@@ -109,3 +109,19 @@ hr{
 .divsalidadivresiduo{
     background:#ec2821;
 }
+
+.divsalidaseno{
+    padding:12px;
+    border-radius:10px;
+    background:#00897b; /* Verde turquesa */
+    color:white;
+    font-weight:bold;
+}
+
+.divsalidacoseno{
+    padding:12px;
+    border-radius:10px;
+    background:#6a1b9a; /* Morado */
+    color:white;
+    font-weight:bold;
+}

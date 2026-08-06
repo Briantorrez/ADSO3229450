@@ -32,6 +32,13 @@ function fncalcularider() {
     let residuo = num1 % num2;
     
 
+    // Convertir grados a radianes
+    let radianes = num1 * (Math.PI / 180);
+
+    // Calcular seno y coseno
+    let seno = Math.sin(radianes);
+    let coseno = Math.cos(radianes);
+
 
 
     // Mostrar resultados
@@ -50,5 +57,11 @@ function fncalcularider() {
 
     document.querySelector(".divsalidadivresiduo").innerHTML =
         "El residuo es: " + residuo;
+
+    document.querySelector(".divsalidaseno").innerHTML =
+    "El seno es: " + seno;
+
+    document.querySelector(".divsalidacoseno").innerHTML =
+        "El coseno es: " + coseno;
 
 }
