@@ -6,7 +6,7 @@ function fngeo() {
 
     // Mostrar el dato en el párrafo
     document.getElementById("pfosalida").innerHTML =
-        "Dato ingresado: " + dato;
+        " el Dato ingresado: " + dato;
 }
 
 
