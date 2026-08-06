@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+
+    <form class="formulario">
+
+        <h2>Formulario de Operaciones</h2>
+
+        <label for="txtdato">Dato</label>
+        <input type="text" id="txtdato" placeholder="Ingrese un dato">
+
+        <button type="button" onclick="fngeo()">Ingresar</button>
+
+        <hr>
+
+        <label for="txtnum1">Número 1</label>
+        <input type="number" id="txtnum1" placeholder="Ingrese el primer número">
+
+        <label for="txtnum2">Número 2</label>
+        <input type="number" id="txtnum2" placeholder="Ingrese el segundo número">
+
+        <button type="button" onclick="fncalcularider()">Calcular</button>
+
+        <h3>Resultados</h3>
+
+        <p id="pfosalida">Aquí aparecerá el dato ingresado.</p>
+
+        <div id="divsalidasuma">Resultado de la suma</div>
+        <div class="divsalidaresta">Resultado de la resta</div>
+        <div class="divsalidamultiplica">Resultado de la multiplicación</div>
+        <div class="divsalidadivision">Resultado de la división</div>
+        <div class="divsalidadivresiduo">Resultado del residuo</div>
+
+    </form>
+
+    <script src="pagina.js"></script>
+
+</body>
+</html>
